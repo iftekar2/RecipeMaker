@@ -1,0 +1,96 @@
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-decoration: none;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.newRecipe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #1a1a1a;
+  border: none;
+  color: white;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.newRecipe:hover {
+  border: 1px solid white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.recipeGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+/*This section is for Create Section*/
+.inputTitle,
+.inputDescription,
+.ingredient {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.titleInput {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.descriptionInput,
+.ingredientInput {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.submitButton,
+.updateButton {
+  width: 101.5%;
+  height: 50px;
+  margin-top: 20px;
+  border: none;
+  background-color: #1a1a1a;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submitButton:hover,
+.updateButton:hover {
+  border: 1px solid white;
+}
